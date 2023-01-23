@@ -1,8 +1,16 @@
-
+import Post from "../Post/Post";
 
 const PostList = (props) => {
     return ( 
-        null
+        <ol style={{listStyle: 'none'}}>
+            {props.appEntries.map((entry) => {
+                return (
+                    <li>
+                        <Post />
+                    </li>
+                );
+            })}
+        </ol>
      );
 }
  

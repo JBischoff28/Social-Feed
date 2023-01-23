@@ -12,6 +12,7 @@ const CreatePostForm = (props) => {
             post: postContent
         };
         console.log(newPost);
+        props.addNewEntry(newPost);
     }
 
     return ( 

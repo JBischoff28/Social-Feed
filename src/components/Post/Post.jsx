@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 
 
-
 const Post = (props) => {
     return ( 
-        <h3>*name will go here*</h3>
+        <table>
+            <tr>
+                <td>{props.name}</td>
+                <td>{props.post}</td>
+            </tr>
+        </table>
      );
 }
  
