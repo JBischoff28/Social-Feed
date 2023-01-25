@@ -8,8 +8,8 @@ function App() {
 
   const [entries, setEntries] = useState([]);
 
-  function AddNewPost(enrty) {
-    let tempEntries = [enrty, ...entries];
+  function AddNewPost(entry) {
+    let tempEntries = [entry, ...entries];
     setEntries(tempEntries);
   }
 
