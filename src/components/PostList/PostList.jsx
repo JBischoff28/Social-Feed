@@ -9,7 +9,7 @@ const PostList = (props) => {
                     <Post entry={entry}/>
                 </div>
                 )
-            )};
+            )}
         </ol>
      );
 }
