@@ -1,0 +1,20 @@
+.container-fluid {
+    background-color: rgb(172, 255, 172);
+}
+
+.navContainer {
+    background-color: white;
+    padding: 1em;
+    padding-bottom: 1.5em;
+    margin-bottom: 1em;
+}
+
+.navText {
+    display: flex;
+    justify-content: left;
+    margin-left: 2em;
+}
+
+.navText2 {
+    color: grey
+}

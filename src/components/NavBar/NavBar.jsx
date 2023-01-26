@@ -1,7 +1,12 @@
 
 const NavBar = (props) => {
-    return ( 
-        <h2>Social Feed</h2>
+    return (
+        <div className="navContainer">
+            <div className="navText">
+                <h2>Social</h2>
+                <h2 className="navText2">Feed</h2>
+            </div>
+        </div>
      );
 }
  
