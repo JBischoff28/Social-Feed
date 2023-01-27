@@ -1,9 +1,10 @@
 
 const Post = (props) => {
     return ( 
-        <div className="">
+        <div className="postContainer">
             <h2>{props.entry.name}</h2>
             <p>{props.entry.post}</p>
+            <hr />
         </div>
      );
 }
