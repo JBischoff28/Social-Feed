@@ -19,13 +19,14 @@ function App() {
       <div className='row'>
         <NavBar />
       </div>
-      <div>
-        <CreatePostForm addNewEntry={AddNewPost} />
+      <div className='d-flex flex-column'>
+        <div className='border-box'>
+          <CreatePostForm addNewEntry={AddNewPost} />
+        </div>
+        <div>
+          <PostList appEntries={entries} />
+        </div>
       </div>
-      <div>
-        <PostList appEntries={entries} />
-      </div>
-
     </div>
   );
 }

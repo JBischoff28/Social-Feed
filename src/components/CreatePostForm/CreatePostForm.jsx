@@ -16,12 +16,18 @@ const CreatePostForm = (props) => {
     }
 
     return ( 
-        <form onSubmit={(event) => handleSubmit(event)}>
-            <label>Name</label>
-            <input type="text" value={name} onChange={(event) => setName(event.target.value)}/>
-            <label>Post</label>
-            <input type="text" value={postContent} onChange={(event) => setPostContent(event.target.value)}/>
-            <button type='submit'>CREATE</button>
+        <form onSubmit={(event) => handleSubmit(event)} className='form-grid'>
+            <div className='form-group'>
+                <label>Name</label>
+                <input className='form-control' type="text" value={name} onChange={(event) => setName(event.target.value)}/>
+            </div>
+            <div className='group2'>
+                <div  className='form-group'>
+                    <label>Post</label>
+                    <textarea className='form-control' type="text" placeholder='Click and drag the bottom right corner to adjust the textbox!' value={postContent} onChange={(event) => setPostContent(event.target.value)}/>
+                </div>
+            </div>
+            <button className='btn btn-primary' type='submit'>CREATE</button>
         </form>
      );
 }
