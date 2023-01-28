@@ -24,7 +24,7 @@ function App() {
           <CreatePostForm addNewEntry={AddNewPost} />
         </div>
         <div className='border-box'>
-          <PostList appEntries={entries} />
+          <PostList appEntries={entries}/>
         </div>
       </div>
     </div>
