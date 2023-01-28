@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import NavBar from './components/NavBar/NavBar';
 import CreatePostForm from './components/CreatePostForm/CreatePostForm';
 import PostList from './components/PostList/PostList';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 
@@ -26,6 +27,9 @@ function App() {
         <div className='border-box'>
           <PostList appEntries={entries}/>
         </div>
+      </div>
+      <div className='footer'>
+        <Footer />
       </div>
     </div>
   );
