@@ -66,3 +66,22 @@ label {
     margin-right: -1em;
     color: black;
 }
+
+.like-dislike-buttons button{
+    float: right;
+    width: 1.5em;
+    height: 1.5em;
+    border: 0;
+    background: none;
+    margin-right: 1em;
+}
+
+.like-dislike-buttons img{
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 1em;
+}
+
+.dislike-img {
+    transform: rotate(180deg);
+}
